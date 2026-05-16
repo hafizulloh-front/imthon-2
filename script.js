@@ -146,4 +146,20 @@
 
 // console.log(createStudent("Hasan", 18, 92)); 
 
+//=================8
 
+// let talabalar = [
+//     { id: 1, name: "Ali", age: 16, score: 85 },
+//     { id: 2, name: "Vali", age: 17, score: 90 },
+//     { id: 3, name: "Guli", age: 15, score: 88 }
+// ];
+
+
+// function getStudentById(id) {
+//     const student = talabalar.find(t => t.id === id);
+//     return student || null;
+// }
+
+
+// console.log(getStudentById(2)); 
+ 
