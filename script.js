@@ -40,3 +40,25 @@
 // }
 
 // console.log(reverseStr("salom"));
+
+//===========================4
+
+// function  countVowels(str) {
+//     let count = 0
+//     str=str.toLowerCase();
+//     for(let char of str) {
+//         switch (char) {
+//             case 'a':
+//             case 'e':
+//             case 'i':
+//             case 'o':
+//             case 'u':
+//                 count++;
+//                 break;
+// }
+        
+//     }
+//     return count;
+// }
+
+// console.log(countVowels("Salom"));
