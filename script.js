@@ -163,3 +163,49 @@
 
 // console.log(getStudentById(2)); 
  
+//====================9
+
+// let talabalar = [
+//     { id: 1, name: "Ali", age: 16, score: 85 },
+//     { id: 2, name: "Vali", age: 17, score: 90 },
+//     { id: 3, name: "Guli", age: 15, score: 88 }
+// ];
+
+// function updateStudent(id, data) {
+//     let student = talabalar.find(t => t.id === id);
+//     if (!student) return "Student not found";
+//     if (data.name !== undefined && (!data.name || data.name.trim() === "")) {
+//         return "Invalid name";
+//     }
+//     if (data.age !== undefined && data.age < 5) {
+//         return "Invalid age";
+//     }
+//     if (data.score !== undefined && (data.score < 0 || data.score > 100)) {
+//         return "Invalid score";
+//     }
+
+//     if (data.name !== undefined) student.name = data.name;
+//     if (data.age !== undefined) student.age = data.age;
+//     if (data.score !== undefined) student.score = data.score;
+//     return student;
+// }
+
+
+// console.log(updateStudent(2, { name: "Valijon", score: 95 }));
+
+//======================10
+
+// let talabalar = [
+//     { id: 1, name: "Ali", age: 16, score: 85 },
+//     { id: 2, name: "Vali", age: 17, score: 90 },
+//     { id: 3, name: "Guli", age: 15, score: 88 }
+// ];
+
+// function deleteStudent(id) {
+//     let index = talabalar.findIndex(t => t.id === id);
+//     if (index === -1) return null;
+//     let deletedStudent = talabalar.splice(index, 1)[0];
+//     return deletedStudent;
+// }
+
+// console.log(deleteStudent(2));
