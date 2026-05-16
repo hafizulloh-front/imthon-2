@@ -125,3 +125,25 @@
 // }
 
 // yangiTalabaQosh({ism:"husan", yosh:19, baho:91});
+
+//===========================7
+
+// let talabalar = [
+//     { id: 1, name: "Ali", age: 16, score: 85 },
+//     { id: 2, name: "Vali", age: 17, score: 90 }
+// ];
+
+// function createStudent(name, age, score) {
+//     if (!name || name.trim() === "") return "Invalid name"; 
+//     if (age < 5) return "Invalid age"; 
+//     if (score < 0 || score > 100) return "Invalid score"; 
+
+//     const id = talabalar.length ? talabalar[talabalar.length - 1].id + 1 : 1;
+//     const newStudent = { id, name, age, score };
+//     talabalar.push(newStudent);
+//     return newStudent;
+// }
+
+// console.log(createStudent("Hasan", 18, 92)); 
+
+
